@@ -1,0 +1,80 @@
+body {
+  color: #000;
+}
+
+.titulo__principal {
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
+
+.header {
+  background-color: green;
+  color: #000;
+}
+
+button {
+  cursor: pointer;
+  background-color: honeydew;
+  color: green;
+}
+
+button:hover {
+  background-color: greenyellow;
+  color: lightsalmon;
+}
+
+footer {
+  background-color: green;
+  display: block;
+  -webkit-margin-before: 0px;
+          margin-block-start: 0px;
+  -webkit-margin-after: 50em;
+          margin-block-end: 50em;
+}
+
+footer p {
+  font-family: cursive;
+  color: white;
+}
+
+.news__uno {
+  background-color: seagreen;
+  color: seashell;
+  font-family: cursive;
+  display: block;
+  grid-area: news__uno;
+}
+
+.news__uno ul li {
+  background-color: tan;
+}
+
+.lista {
+  color: black;
+  display: block;
+  grid-area: lista__empresas;
+  background-color: cadetblue;
+}
+
+.lista p {
+  background-color: darkorange;
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+  font-family: cursive;
+}
+
+.lista ol li {
+  -webkit-margin-before: 5px;
+          margin-block-start: 5px;
+}
+
+.list {
+  background-color: indianred;
+}
+
+.list p {
+  font-family: cursive;
+  background-color: lightblue;
+}
+/*# sourceMappingURL=estilos.css.map */

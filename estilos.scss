@@ -1,0 +1,81 @@
+@import "variables";
+
+body {
+    color: $color;
+}
+
+.titulo__principal{
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+.header{
+    background-color: green;
+    color: $color;
+}
+
+button{
+    cursor: pointer;
+    background-color: honeydew;
+    color: green;
+    &:hover{
+        background-color: greenyellow;
+        color: lightsalmon;
+    }
+
+}
+
+footer{
+    background-color: green;
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 50em;
+    p{
+        font-family: cursive;
+        color: white
+    }
+}
+
+.news__uno{
+    background-color: seagreen;
+    color: seashell;
+    font-family: cursive;
+    display: block;
+    grid-area: news__uno;
+    ul li{
+        background-color:tan;
+
+
+    }
+}
+
+.lista{
+    color: black;
+    display: block;
+    grid-area: lista__empresas;
+    background-color: cadetblue;
+    p{
+        background-color: darkorange;
+        margin-block-start: 5px;
+        font-family: cursive;
+
+    }
+    
+    ol li{
+        margin-block-start: 5px;
+    }
+
+}
+
+.list{
+    background-color: indianred;
+    p{
+        font-family: cursive;
+        background-color:lightblue;
+    }
+
+}
+
+
+
